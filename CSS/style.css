@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -9,34 +13,95 @@ body {
 
 /* Хедер */
 
-header {
-    padding: 0 25px;
+.header {
     background: #2b2c32;
 }
-div.header-level1 {
-    
+
+.header-level1 {
+    padding: 0 25px;
     color:#fff;
     height: 70px;
     opacity: 0.95;
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+/* Левый блок верхнего Хедера */
 }
-div.header-level2 {
-    height: 100px;
-    max-width: 1280px;
-    margin: 0 auto;
+.header-leftblock {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    padding: 0 25px 0 0;
+    font-size: 24px;
+}
+
+.header-menu {
+    font-size: 14px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.menu-point {
+    padding: 25px;
+}
+.menu-point:hover {
+    color: #fbb233;
+    padding: 25px;
+    border-bottom: 2px solid #fbb233;
+}
+
+/* Правый блок верхнего Хедера */
+.header-rightblock {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+/* Средний уровень Хедера */
+.header-level2 {
+    height: 100px;  
+    margin: 0;
+    background-image: url('../images/header-bg.jpg');
+    background-size: 100% auto;   
     opacity: 0.7;
 }
-div.header-level3 {
+
+/* Меню навигации*/
+
+.menu {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: -30px auto 0;
+    padding: 0 25px;
     height: 60px;
     border-radius: 3px;
     background-color: #4576be;
+    opacity: 0.999;
+    display: flex;
+}
+.nav-leftblock {
+    display: flex;
+    width: 60%;
+    list-style-type: none;
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+    align-items: stretch;
+}
+.nav-point-menu {
+    padding: 0 15px;
+    white-space: nowrap;
+    align-items: center;
 }
 
 /* Контент */
-div.main-content {
+
+.main-content {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
@@ -45,10 +110,11 @@ div.main-content {
 }
 
 /* Футтер */
-footer {
+
+.footer {
     background: #2b2c32;    
     color: #fff;
     min-height: 140px;
+    max-width: 1280px;
     padding: 0 25px;
 }
-
