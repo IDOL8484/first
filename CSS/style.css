@@ -94,7 +94,7 @@ a {
 }
 
 
-/* - Средний уровень Хедера - */
+/* - Картинка Хедера - */
 .header-level2 {
     height: 100px;  
     margin: 0;
@@ -155,10 +155,49 @@ a {
     max-width: 1280px;
     margin: 0 auto;
     flex-grow: 1;
-    padding: 73px 25px 80px;
+    padding: 60px 25px 80px;
+}
+.block-sidebar {
+
+    width: 290px ;
+    border: 1px solid #e5e5e5;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+.sidebar-point {
+    color: #2b2c32;
+    padding-left: 44px;
+}
+.sidebar-point:hover {
+    color: #4576be;
+    padding-left: 42px;
+    border-left: 2px solid #4576be;
+}
+.div-point-exit {
+    height: 60px;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.point-exit {
+    padding-left: 44px; 
+    color: #2b2c32;
+}
+.point-exit:hover {
+    color: #4576be;
+    padding: 5px 0 5px 42px;
+    border-left: 2px solid #4576be;
 }
 
-/* -- Футтер -- */
+/* -- Футер -- */
 
 .footer {
     display: flex;
