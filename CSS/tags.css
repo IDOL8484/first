@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    background-color: rgb(232, 229, 229);
+}
+body {
+    font-family: 'Trebuchet MS',  'Arial', 'sans-serif';
+    display: flex;
+    min-width: 1280px;
+    max-width: 2080px;
+    min-height: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0 0 15px 10px gray;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280px">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./CSS/app.css">
+    <script src="https://kit.fontawesome.com/d2d641e9a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-level1">
+<!-- Хедер - Левый блок -->
+            <div class="header-leftblock">
+                <ul class="header-menu">
+                    <li class="logo"><a href="#">CARPARTS</a></li>
+                    <li class="menu-point"><a href="#">Легковые</a></li>
+                    <li class="menu-point"><a href="#">Грузовые</a></li>
+                    <li class="menu-point"><a href="#">Спецтехника</a></li>
+                </ul>   
+            </div>
+<!-- Хедер - Правый блок -->
+            <div class="header-rightblock">
+               <select class="location">
+                    <option>Санкт-Петербург</option>
+                    <option>Москва</option>
+                    <option>Засранск</option>
+               </select> 
+
+                <div class="ava-block">
+                    <a href="l.html"><img src="./images/emoji.jpg" class="avatar" alt="Петя Васичкин"></a>
+                    <a href="l.html"><div class="notice" id="notice-avatar">1</div></a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+<!-- Меню навигации -->
+    <nav class="nav">
+        <div class="nav-menu">
+            <ul class="nav-leftblock">
+                <li class="nav-point-menu"><a href="#">Каталог авторазборок</a></li>
+                <li class="nav-point-menu"><a href="#">Каталог запчастей</a></li>
+                <li class="nav-point-menu"><a href="#">О сервисе</a></li>
+                <li class="nav-point-menu"><a href="#">Адреса</a></li>
+                <li class="nav-point-menu"><a href="#">Для авторазборок</a></li>
+            </ul>
+
+            <div class="nav-garage">
+                <i class="fa-sharp fa-solid fa-warehouse"></i>
+                <div class="button-car">
+                    <div href="#" class="car">Гараж: Audi RS5 2014 г.</div>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <a href="l.html" class="nav-cross-block"><i class="fa-sharp fa-solid fa-plus" id="nav-cross"></i></a>
+        </div>
+    </nav>
+
+<!-- == Контент == -->
+    <div class="main-content">
+        <div class="main-content-max1340">
+<!-- Боковое меню -->
+            <aside class="menu-sidebar">
+                <ul class="sidebar">
+                    <li class="string-point">
+                        <i class="fa-sharp fa-solid fa-house"></i>
+                        <a href="#" class="text-point">Главная</a>
+                    </li>
+                    <li class="string-point">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#" class="text-point">Профиль</a>
+                    </li>
+                    <li class="string-point">
+                        <i class="fa-sharp fa-solid fa-boxes-stacked"></i>
+                        <a href="#" class="text-point">Заказы</a>
+                    </li>
+                    <li class="string-point" id="point-with-message">
+                        <div class="special-point">
+                            <i class="fa-solid fa-list-ul"></i>
+                            <a href="#" class="text-point">Товары</a>
+                        </div>
+                        <button class="button-add">
+                                <i class="fa-sharp fa-solid fa-plus" id="cross1"></i>
+                                <div class="add-docket">Добавить</div>
+                        </button>
+                    </li>
+                    <li class="string-point">
+                        <i class="fa-sharp fa-solid fa-message"></i>
+                        <a href="#" class="text-point">Отзывы</a>
+                    </li>
+                    <li class="string-point" id="point-with-message">
+                        <div class="special-point">
+                            <i class="fa-solid fa-bookmark"></i>
+                            <a href="#" class="text-point">Избранное</a>
+                        </div>
+                        <div>
+                            <a href="#" class="notice" id="notice-sidebar">5</a>
+                        </div>
+                    </li>
+                    <li class="string-point" id="point-with-message">
+                        <div class="special-point">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="#" class="text-point">Сообщения</a>
+                        </div>
+                        <div>
+                            <a href="#" class="notice" id="notice-sidebar">1</a>
+                        </div>
+                    </li>
+                    <li class="string-point">
+                        <i class="fa-solid fa-gear"></i>
+                        <a href="#" class="text-point">Настройки</a>
+                    </li>
+                </ul>
+                <div class="div-point-exit">
+                    <i class="fa-solid fa-power-off"></i>
+                    <a href="l.html" class="point-exit">Выход</a>
+                </div>
+            </aside>
+
+        <!-- == Основное содержимое == -->
+            <main class="main">
+                <!-- Заголовок -->
+                <div class="main-headline">Главная</div>
+
+                <!-- Главная информация -->
+                <div class="main-info">
+                    <div class="main-top">
+                        <p class="p">Информация о компании</p>
+                        <a href="l.html" class="a">Редактировать</a>  
+                    </div>
+
+                    <div class="company-info">
+                        <div><i class="fa-sharp fa-solid fa-image" id="no-image"></i></div>
+
+                        <div class="company-content">
+                            <div class="company-name">
+                                <p class="p" id="p-company-name">Super Car Parts</p>
+
+                                <div class="arrow-rating">
+                                    <img src="./images/arrow-rating.png" >
+                                    <div class="rating-percents">97%</div>
+                                </div>
+
+                                <a href="#" class="a-dotted">38 отзывов</a>
+                            </div>
+
+                            <div>
+                                <p class="p-contact">Адрес</p>
+                                <p class="p">Санкт-Петербург, ул. Генерала Наумова, 56</p>
+                                <p class="p-contact">График работы</p>
+                                <p class="p">Пн-Пт с 9:00 до 19:00, Сб с 10:00 до 15:00</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main-profile-info">
+                        <p class="p" id="main-procents">60%</p>
+                        <p class="p">Ваш профиль заполнен на 60%. Чтобы привлечь больше клиентов, заполните профиль как можно детальнее.</p>
+                    </div>
+
+                    <div class="main-adding">
+                        <p class="p">Добавьте <a class="a">контактный телефон</a>, чтобы с вами быстро связались клиенты.</p>
+                        <p class="p">Добавьте <a class="a">способы оплаты</a> и вы сможете принимать оплату любым способом.</p>
+                        <p class="p">Добавьте <a class="a">описание компании</a>, чтобы клиентам было, что почитать.</p>
+                        <p class="p">Добавьте <a class="a">фотографию</a>, чтобы клиенты восхищались вами.</p>
+                        <p class="p">Добавьте <a class="a">карту</a>, чтобы клиенты знали, как к вам доехать.</p>
+                    </div>
+                </div>
+                
+                <!-- Нижнии кнопки -->
+                <div class="main-bottom">
+                    <button class="button-bottom">
+                        <div class="notice" id="notice-order">7</div>
+                        <i class="fa-sharp fa-solid fa-boxes-stacked" id="buttons-undermain-not-empty"></i>
+                        <div>7 новых заказов</div>
+                    </button>
+
+                    <button class="button-bottom">
+                        <i class="fa-solid fa-envelope" id="buttons-undermain-empty"></i>
+                        <div>Нет новых сообщений</div>
+                    </button>
+
+                    <button class="button-bottom-last">
+                        <i class="fa-sharp fa-solid fa-plus" id="buttons-undermain-not-empty"></i>
+                        <div>Добавить товары</div>
+                    </button>
+                </div>
+            </main>  
+        </div>     
+
+        <div class="aside-max1340">
+            <div class="aside-empty-block"></div>
+        <!-- Боковое меню - Рекмама -->
+            <aside class="aside">
+
+                <!-- Рекламный блок 1 -->
+                <div class="reclame-block1">
+
+                    <p class="p-reclame1"><a href="h.html" class="a">Онлайн консультант</a> поможет вам привлечь до 35% больше клиентов</p>
+                    <br>
+                    <p class="p-reclame1">Подключите функцию сейчас и попробуйте в течении 30 дней абсолютно бесплатно.</p>
+                    <button class="reclame-button">Подключить бесплатно на 30 дней</button>
+                    <div class="circles">
+                        <button class="circle-button"><i class="fa-sharp fa-solid fa-circle" id="circle"></i></button>
+                        <button class="circle-button"><i class="fa-sharp fa-solid fa-circle" id="circle"></i></button>
+                    </div>
+                </div>
+
+                <div class="reclame-block2">
+                    <p class="p-reclame2">Нужна помощь?</p>
+                    <br>
+                    <p class="p-reclame2">В центре поддержки есть вся необходимая информация по сайту.</p>
+                    <button class="reclame-button">Перейти в центр поддержки</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+<!-- Футер -->
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="footer-top-right">
+                <a href="#" class="a-footer-top">Каталог разборок</a>
+                <a href="#" class="a-footer-top">Каталог запчастей</a>
+                <a href="#" class="a-footer-top">О сервисе</a>
+                <a href="#" class="a-footer-top">Адреса</a>
+                <a href="#" class="a-footer-top">Для авторазборок</a>
+            </div>
+
+            <div class="icons-in-footer">
+                <a href="http://vk.ru" ><img src="./images/vk-icon.png" class="footer-icon" alt="Ссылка на vk.ru"></a>
+                <a href="http://facebook.com"><img src="./images/FB-icon.png" class="footer-icon" alt="Ссылка на facebook.com"></a>
+                <a href="http://twitter.com"><img src="./images/twitter-icon.png" class="footer-icon" alt="Ссылка на twitter.com"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="http://carparts.ru" class="a-footer-bottom">2016 © CarParts.ru</a>
+            <a href="#" class="a-footer-bottom">Пользовательское соглашение</a>
+        </div>
+    </footer>
+</body>
+</html>
