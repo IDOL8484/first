@@ -1,43 +1,5 @@
-html {
-    height: 100%;
-}
-body {
-    font-family: 'Trebuchet MS',  'Arial', 'sans-serif';
-    display: flex;
-    min-width: 1024px;
-    min-height: 100%;
-    flex-direction: column;
-    margin: 0;
-    font-size: 14px;
-}
-a {
-    color: #fff;
-    text-decoration: none;
-}
-.a {
-    color: #4576be;
-    border-bottom: 1px solid #4576be;
-}
-
-/* Синие кружочки уведомлений */
-.notice {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background-color: #4576be;
-}
-.p {
-    margin: 0;
-}
-
-#no-image {
-    font-size: 300%;
-    padding: 40px 55px;
-    background-color: #e3e3e6;
-    color: white;
-}
-
-
+@import "tags.css";
+@import "common.css";
 
 
 /* -- Хедер -- */
@@ -126,7 +88,7 @@ header::after {
 /* -- Меню навигации --*/
 .nav {
     width: 100%;
-    min-width: 1024px;
+    min-width: 1230px;
     max-width: 1280px;
     margin: -30px auto 0;
     height: 60px;
@@ -198,7 +160,6 @@ header::after {
 
 .main-content {
     display: flex;
-    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     flex-grow: 1;
@@ -539,7 +500,8 @@ header::after {
 }
 
 .icons-in-footer {
-    display: flex;  
+    display: flex; 
+    justify-content: space-between; 
 
 }
 .footer-icon {
@@ -570,6 +532,7 @@ header::after {
     /* Основной контент 1340px */
     .main-content {
         flex-direction: column;
+        padding-right: 0;
     }
     .main-content-max1340 {
         display: flex;
@@ -582,6 +545,9 @@ header::after {
     }
 
     /* Меню навигации 1340px */
+    .nav {
+        width: 90%;
+    }
     .nav-leftblock {
         padding: 0 70px 0 25px;
         justify-content: space-between;
@@ -631,14 +597,17 @@ header::after {
         flex-basis: 50%;
     }
     /* Футер 1340px */
+    
     .footer-top-right {
-        padding-left: 15px;
+        padding-left: 25px;
     }
     .icons-in-footer {
-        padding-right: 15px;  
+        padding-right: 25px;  
         
     }
     .footer-bottom {
-        padding-left: 15px;
+        padding-left: 25px;
+        max-width: 1250px;
+
     }
 }
