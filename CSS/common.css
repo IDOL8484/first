@@ -13,9 +13,15 @@
     border-radius: 50%;
     background-color: #4576be;
 }
-#no-image {
+.no-image {
     font-size: 300%;
     padding: 40px 55px;
     background-color: #e3e3e6;
     color: white;
+}
+
+/*  Крестик отмены */
+.cancel {
+    box-sizing: border-box;
+    margin-left: 95%;   
 }
